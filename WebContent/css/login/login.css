@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02/08/2016, 14:48:25
+    Author     : belchiorpalma
+*/
+
+@media (max-width: 380px) and (min-width: 320px) {
+  @viewport {
+    width: 480px !important;
+  }
+  #login .row{
+      margin-top:7em;
+  }
+  #login.bg-login{
+    background-size:150%;
+    }
+}
+@media (max-width: 414px) and (min-width: 381px) {
+  @viewport {
+    width: 480px !important;
+  }
+  #login .row{
+      margin-top:8em;
+  }
+  #login.bg-login{
+    background-size:150%;
+    }
+}
+@media (max-width: 550px) and (min-width: 415px) {
+  @viewport {
+    width: 480px !important;
+  }
+  #login .row{
+      margin-top:10em;
+  }
+  #login.bg-login{
+    background-size:150%;
+    }
+}
+@media (max-width: 650px) and (min-width: 551px) {
+  @viewport {
+    width: 480px !important;
+  }
+  #login .row{
+     margin-top:10em;
+  }
+  #login.bg-login{
+    background-size:150%;
+    background-position: 0px -3em;
+    }
+}
+@media (max-width: 736px) and (min-width: 651px) {
+  @viewport {
+    width: 736px !important;
+  }
+  #login .row{
+      margin-top:15em;
+  }
+  #login.bg-login{
+    background-size:150%;
+    background-position: 0px -3em;
+    }
+}
+@media (max-width: 1023px) and (min-width: 737px) {
+  @viewport {
+    width: 736px !important;
+  }
+  #login .row{
+      margin-top:-10px;
+      float:right;
+      width: 300px;
+  }
+  #login.bg-login{
+    background-size:100%;
+    background-position: 0px -3em;
+    }
+}
+@media (max-width: 1280px) and (min-width: 1024px) {
+    #login .row{
+      margin-top:2em;
+  }
+  
+}
+@media (max-width: 1360px) and (min-width: 1281px) {
+    #login .row{
+      margin-top:4em;
+      margin-right: -10em;
+      float:right;
+      width: 65em;
+  }
+  
+}
+@media (max-width: 1600px) and (min-width: 1361px) {
+    #login .row{
+      margin-top:4em;
+      margin-right: -10em;
+      float:right;
+      width: 65em;
+  }
+  
+}
+@media (max-width: 1920px) and (min-width: 1601px) {
+    #login .row{
+      margin-top:6em;
+      margin-right: -25em;
+      float:right;
+      width: 65em;
+  }
+  
+}

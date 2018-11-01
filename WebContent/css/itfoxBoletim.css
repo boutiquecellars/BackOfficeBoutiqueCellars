@@ -1,0 +1,388 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/03/2016, 22:26:53
+    Author     : belchiorpalma
+*/
+@viewport{
+  zoom: 0.5;
+  width: extend-to-zoom;
+}
+@-ms-viewport{
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+/******* Pallete ********
+"#5576a0","#95d9f0","#f17979","#f0831d","#ffdf87","#bababa","#dedede","#d3d3d3", "#bababa","#f0831d","#f8ac59","#d3d3d3", "#bababa","#f0831d","#f8ac59","#d3d3d3", "#bababa","#f0831d","#f8ac59"
+*/
+
+.svg-legend-color-0{
+    fill: #5576a0;
+}
+.svg-legend-color-1{
+    fill: #95d9f0;
+}
+.svg-legend-color-2{
+    fill: #f17979;
+}
+.svg-legend-color-3{
+    fill: #f8ac59;
+}
+.svg-legend-color-4{
+    fill: #ffdf87;
+}
+.svg-legend-color-5{
+    fill: #bababa;
+}
+.svg-legend-color-6{
+    fill: #dedede;
+}
+.svg-legend-color-7{
+    fill: #d3d3d3;
+}
+.svg-legend-color-8{
+    fill: #bababa;
+}
+.svg-legend-color-9{
+    fill: #f0831d;
+}
+.svg-legend-color-10{
+    fill: #f8ac59;
+}
+.svg-legend{
+    float:left;
+    width:20px;
+    height:10px;
+    text-align:center;
+}
+.svg-legend-style{
+    stroke: black;
+    width:10px;
+    height:10px;
+}
+/***** Adjust ct-char graph percent ********/
+span.ct-label.ct-horizontal.ct-end{
+    margin-left:-10px;
+}
+/******* Leves *********/
+.ct-chart-bar .ct-series-a .ct-bar:nth-of-type(4n+1) {
+  stroke: #5576a0;
+}
+.ct-chart-bar .ct-series-b .ct-bar:nth-of-type(4n+1) {
+  stroke: #95d9f0;
+}
+.ct-chart-bar .ct-series-c .ct-bar:nth-of-type(4n+1) {
+  stroke: #f17979;
+}
+.ct-chart-bar .ct-series-d .ct-bar:nth-of-type(4n+1) {
+  stroke: #f8ac59;
+}
+.ct-chart-bar .ct-series-e .ct-bar:nth-of-type(4n+1) {
+  stroke: #ffdf87;
+}
+.ct-chart-bar .ct-series-f .ct-bar:nth-of-type(4n+1) {
+  stroke: #bababa;
+}
+.ct-chart-bar .ct-series-g .ct-bar:nth-of-type(4n+1) {
+  stroke: #dedede;
+}
+/******* Medios *********/
+.ct-chart-bar .ct-series-a .ct-bar:nth-of-type(4n+2) {
+  stroke: #5576a0;
+}
+.ct-chart-bar .ct-series-b .ct-bar:nth-of-type(4n+2) {
+  stroke: #95d9f0;
+}
+.ct-chart-bar .ct-series-c .ct-bar:nth-of-type(4n+2) {
+  stroke: #f17979;
+}
+.ct-chart-bar .ct-series-d .ct-bar:nth-of-type(4n+2) {
+  stroke: #f8ac59;
+}
+.ct-chart-bar .ct-series-e .ct-bar:nth-of-type(4n+2) {
+  stroke: #ffdf87;
+}
+.ct-chart-bar .ct-series-f .ct-bar:nth-of-type(4n+2) {
+  stroke: #bababa;
+}
+.ct-chart-bar .ct-series-g .ct-bar:nth-of-type(4n+2) {
+  stroke: #dedede;
+}
+/******* Semipesados *********/
+.ct-chart-bar .ct-series-a .ct-bar:nth-of-type(4n+3) {
+  stroke: #5576a0;
+}
+.ct-chart-bar .ct-series-b .ct-bar:nth-of-type(4n+3) {
+  stroke: #95d9f0;
+}
+.ct-chart-bar .ct-series-c .ct-bar:nth-of-type(4n+3) {
+  stroke: #f17979;
+}
+.ct-chart-bar .ct-series-d .ct-bar:nth-of-type(4n+3) {
+  stroke: #f8ac59;
+}
+.ct-chart-bar .ct-series-e .ct-bar:nth-of-type(4n+3) {
+  stroke: #ffdf87;
+}
+.ct-chart-bar .ct-series-f .ct-bar:nth-of-type(4n+3) {
+  stroke: #bababa;
+}
+.ct-chart-bar .ct-series-g .ct-bar:nth-of-type(4n+3) {
+  stroke: #dedede;
+}
+/******* Extrapesados *********/
+.ct-chart-bar .ct-series-a .ct-bar:nth-of-type(4n+4) {
+  stroke: #5576a0;
+}
+.ct-chart-bar .ct-series-b .ct-bar:nth-of-type(4n+4) {
+  stroke: #95d9f0;
+}
+.ct-chart-bar .ct-series-c .ct-bar:nth-of-type(4n+4) {
+  stroke: #f17979;
+}
+.ct-chart-bar .ct-series-d .ct-bar:nth-of-type(4n+4) {
+  stroke: #f8ac59; /*#f0831d;*/
+}
+.ct-chart-bar .ct-series-e .ct-bar:nth-of-type(4n+4) {
+  stroke: #ffdf87;
+}
+.ct-chart-bar .ct-series-f .ct-bar:nth-of-type(4n+4) {
+  stroke: #bababa;
+}
+.ct-chart-bar .ct-series-g .ct-bar:nth-of-type(4n+4) {
+  stroke: #dedede;
+}
+/*** responsiveness **/ 
+/*** media screen ***/
+
+/*** //-media screen ***/
+/****** Adjusts on boletim table rows *****/
+#row1 caption{
+    font-family: sans-serif;
+    padding-left: 20px;
+    font-size:10px;
+    
+}
+#row1 div.table-responsive.table-module{
+    width: 31.3%;
+    float: left;
+    margin-right: 2%;
+}
+/**** css style for row1 currency table**/
+#row1 th[data-type="string"] {
+    text-align:left;
+    padding-left:20px;
+}
+#row1 th[data-type="currency"] {
+    text-align:right;
+    padding-right:20px;
+}
+#row1 td[data-type="string"] {
+    text-align:left;
+    padding-left:20px;
+    /*
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 1px;
+    margin-top: 1px;*/
+}
+#row1 td[data-type="currency"] {
+    text-align:right;
+    padding-right:20px;
+}
+#row1 td[data-type="percent"] {
+    text-align:right;
+    padding-right:20px;
+}
+/**** row 2a ***/
+div#cliente-abc{
+    float:left;
+    width:100%;
+}
+div#cliente-abc-footer{
+    float:left;
+    width:100%;
+}
+ #row2a div.table-responsive.table-module,  #row3 div.table-responsive.table-module, #row4 div.table-responsive.table-module, #row5 div.table-responsive.table-module, #row6 div.table-responsive.table-module{
+    width: 100%;
+    float: left;
+    margin-right: 2%;
+    font-size:12px;
+}
+/**** css style for row1 currency table**/
+#row2a th[data-type="string"] {
+    text-align:left;
+    padding-left:20px;
+}
+#row2a th[data-type="currency"] {
+    text-align:right;
+    padding-right:20px;
+}
+#row2a td[data-type="string"] {
+    text-align:left;
+    padding-left:20px;
+}
+#row2a td[data-type="currency"] {
+    text-align:right;
+    padding-right:20px;
+}
+#row2a td[data-type="percent"] {
+    text-align:right;
+    padding-right:20px;
+}
+/****** row 3 *******/
+#row3 th[data-type="string"] {
+    text-align:center;
+    padding-left:20px;
+    width:auto;
+    min-width: 100px;
+    display:block;
+    height: auto;
+}
+#row3 table thead tr th:nth-of-type(2){
+    width: auto;
+    min-width: 320px;
+    text-align: center;
+}
+#row3 table tbody tr td:nth-of-type(2){
+    width: auto;
+    min-width: 320px;
+    text-align: left;
+}
+#row3 th[data-type="currency"] {
+    text-align:center;
+    padding-right:3px;
+    padding-left:3px;
+    min-width: 50px;
+    font-size:70%;
+}
+#row3 td[data-type="string"] {
+    text-align:left;
+    padding-left:20px;
+}
+#row3 td[data-type="currency"] {
+    text-align:right;
+    padding-right:20px;
+}
+#row3 td[data-type="percent"] {
+    text-align:right;
+    padding-right:20px;
+}
+/****** row 4 *******/
+#row4 th[data-type="string"] {
+    text-align:center;
+    padding-left:20px;
+    width:auto;
+    min-width: 100px;
+    display:block;
+    height: auto;
+}
+#row4 table thead tr th:nth-of-type(2){
+    width: auto;
+    min-width: 320px;
+    text-align: center;
+}
+#row4 table tbody tr td:nth-of-type(2){
+    width: auto;
+    min-width: 320px;
+    text-align: left;
+}
+#row4 th[data-type="currency"] {
+    text-align:center;
+    padding-right:3px;
+    padding-left:3px;
+    min-width: 50px;
+    font-size:70%;
+}
+#row4 td[data-type="string"] {
+    text-align:left;
+    padding-left:20px;
+}
+#row4 td[data-type="currency"] {
+    text-align:right;
+    padding-right:20px;
+}
+#row4 td[data-type="percent"] {
+    text-align:right;
+    padding-right:20px;
+}
+/****** row 5 *******/
+#row5 th[data-type="string"] {
+    text-align:center;
+    padding-left:20px;
+    width:auto;
+    min-width: 200px;
+    display:block;
+    height: auto;
+}
+#row5 th[data-type="currency"] {
+    text-align:center;
+    padding-right:3px;
+    padding-left:3px;
+    min-width: 50px;
+    font-size:70%;
+}
+#row5 td[data-type="string"] {
+    text-align:left;
+    padding-left:20px;
+}
+#row5 td[data-type="currency"] {
+    text-align:right;
+    padding-right:20px;
+}
+#row5 td[data-type="percent"] {
+    text-align:right;
+    padding-right:20px;
+}
+/****** row 6 *******/
+#row6 th[data-type="string"] {
+    text-align:center;
+    padding-left:20px;
+    
+    
+    height: auto;
+}
+#row6 th[data-type="currency"] {
+    text-align:center;
+    padding-right:3px;
+    padding-left:3px;
+    min-width: 20%;
+    
+}
+#row6 td[data-type="string"] {
+    text-align:center;
+    
+}
+#row6 td[data-type="currency"] {
+    text-align:center;
+    padding-right:20px;
+}
+#row6 td[data-type="percent"] {
+    text-align:right;
+    padding-right:20px;
+}
+
+/******* print ********/
+.logo-quest-relatorio{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/logo_quest.png),url(../img/logo_assobens.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, top right;
+    background-size: 10%, 9%;
+
+
+}
+.logo-assobens-relatorio{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/logo_quest.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 10%;
+
+
+}

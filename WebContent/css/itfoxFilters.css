@@ -1,0 +1,311 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02/08/2016, 17:41:36
+    Author     : belchiorpalma
+*/
+
+
+/*** responsiveness **/ 
+/*** media screen ***/
+ @media screen and (min-width: 810px) and (max-width: 1024px) {
+    .filter ul li input{
+        height: 30px;
+        width: 64px;
+        font-size: 10px;
+        font-weight: 100;
+        margin: 0 0px 0 0px;
+        padding: 0px;  
+    }
+    .form-control{
+        width: 74px;
+        font-size: 10px;
+        padding: 6px 12px;
+    }
+ }
+ @media screen and (min-width: 569px) and (max-width: 768px) {
+   .form-control{
+        width: 60px !important;
+        font-size: 10px;
+        padding: 6px 12px;
+    }   
+
+}
+@media screen and (min-width: 500px) and (max-width: 568px) {
+   .form-control{
+        width: 50px !important;
+        font-size: 10px;
+        font-size: 6px !important;
+        padding: 0px 0px 0px 5px !important;
+    }   
+
+}
+@media screen and (min-width: 415px) and (max-width: 499px) {
+   .form-control{
+        width: 50px !important;
+        font-size: 10px;
+        padding: 6px 12px;
+    }   
+
+}
+@media screen and (min-width: 400px) and (max-width: 435px) {
+    .form-control{
+        width: 135px !important;
+        font-size: 10px;
+        padding: 6px 12px;
+    }
+    .filter ul li input{
+        height: 34px;
+        width: 122px;
+        font-size: 10px;
+        font-weight: 100;
+        margin: 0 0px 0 0px;
+        padding: 0px;  
+        border: 1px solid #e5e6e7;
+    }
+    input.buttonSubmit {
+        width: 290px !important;
+        margin: 0px 10px 0 8px !important;
+        padding: 0 !important;
+        border: 1px solid #e5e6e7;
+        height: 34px !important;
+    }
+    .filter {
+        height: auto;
+        float: left;
+        overflow: hidden;
+        text-align: center;
+    }
+    .filter ul{
+        margin-left: 20px;
+    }
+    
+    .filter ul li a {
+        background-color: white;
+         border: medium none;
+         height: 34px;
+         margin: 20px 0 0 8px;
+         padding: 6px 0 0 !important;
+         text-align: center;
+         width: 290px;
+         border: 1px solid #e5e6e7;
+     }
+}
+@media screen and (min-width: 375px) and (max-width: 399px) {
+    .form-control{
+        width: 135px !important;
+        font-size: 10px;
+        padding: 6px 12px;
+    }
+    .filter ul li input{
+        height: 34px;
+        width: 122px;
+        font-size: 10px;
+        font-weight: 100;
+        margin: 0 0px 0 0px;
+        padding: 0px;  
+        border: 1px solid #e5e6e7;
+    }
+    input.buttonSubmit {
+        width: 290px !important;
+        margin: 0px 10px 0 8px !important;
+        padding: 0 !important;
+        border: 1px solid #e5e6e7;
+        height: 34px !important;
+    }
+    
+    .filter ul li a {
+        background-color: white;
+         border: medium none;
+         height: 34px;
+         margin: 20px 0 0 8px;
+         padding: 6px 0 0 !important;
+         text-align: center;
+         width: 290px;
+         border: 1px solid #e5e6e7;
+     }
+}
+@media screen and (min-width: 360px) and (max-width: 374px) {
+    .filter ul{
+        margin-left: 20px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 374px) {
+    li.fieldset>fieldset:nth-of-type(5)>legend{
+                text-indent:-9999px;
+                line-height: 0; /* Collapse the original line */
+            }
+            li.fieldset>fieldset:nth-of-type(5)>legend:after{
+                content:"Área Oper.";
+                text-indent: 0;
+                display: block;
+                line-height: initial; /* New content takes up original line height */
+            }
+     .filter ul li fieldset {
+                 padding: 12px 6px 0;
+            }       
+    .filter {
+        height: auto;
+        float: left;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .form-control{
+        width: 101px !important;
+        font-size: 10px;
+        padding: 0 0 0px 0px;
+        margin: 0px 0px 0 3px !important;
+    }   
+    .filter ul li>fieldset>span{
+        float: left;
+        margin: 0 0 1px 0;
+        width: 37px;
+    }
+     .filter ul li input{
+        height: 34px;
+        width: 190px;
+        font-size: 10px;
+        font-weight: 100;
+        margin: 0 0px 0 0px;
+        padding: 0px;  
+        border: 1px solid #e5e6e7;
+    }
+    .filter ul li a {
+        background-color: white;
+         border: medium none;
+         height: 34px;
+         margin: 20px 10px 0 8px !important;
+         padding: 6px 0 0 !important;
+         text-align: center;
+         width: 230px;
+         border: 1px solid #e5e6e7;
+     }
+    input.buttonSubmit {
+        width: 230px !important;
+        margin: 20px 10px 0 8px !important;
+        padding: 0 !important;
+        border: 1px solid #e5e6e7;
+        height: 34px !important;
+    }        
+    .responsive-table tbody td[data-title]:before{
+        padding-right:50px;
+    }
+
+    .responsive-table tbody td[scope="row"]{
+        border-top: 1px solid #ccc !important;
+        text-align: right;
+        background-color:#ededed;
+        padding-bottom: 10px;
+        margin-bottom:0;
+        padding-top: 10px;
+    }
+    .table-striped>tbody>tr:nth-of-type(odd){
+        background-color:#f9f9f9 !important;
+    }
+    th[data-type="string"] {
+        text-align:left;
+        padding-left:5px !important;
+    }
+    td[data-type="string"] {
+        text-align:left;
+        padding-left:5px !important;
+    }
+}
+
+/*** comum a todos os dispositivos mobile **/
+@media screen and (min-width: 415px) and (max-width: 1024px) {
+    
+    .responsive-table tbody td[data-title]:before{
+        padding-right:50px;
+    }
+
+    .responsive-table tbody td[scope="row"]{
+        border-top: 1px solid #ccc !important;
+        text-align: right;
+        background-color:#ededed;
+       
+        margin-bottom:0;
+       
+        vertical-align: middle;
+    }
+    .table-striped>tbody>tr:nth-of-type(odd){
+        background-color:#f9f9f9 !important;
+    }
+    th[data-type="string"] {
+        text-align:left;
+        padding-left:5px !important;
+    }
+    td[data-type="string"] {
+        text-align:left;
+        padding-left:5px !important;
+    }
+    thead th[scope="colgroup"],thead th[scope="col"]{
+        border: 0px solid #FFF !important;
+    }
+    caption{
+        display:none;
+    }
+    .table-responsive{
+        border: 0px solid #FFF !important;
+    }
+    th, td{
+        height: 20px !important;
+        line-height: 1.42em;
+        vertical-align:middle !important;
+    }
+    #row3 th[data-type="string"],#row3 td[data-type="string"], #row4 th[data-type="string"],#row4 td[data-type="string"]{
+        min-width:50px !important;
+        width: 80px;
+        
+    }
+    #row5 th[data-type="string"],#row5 td[data-type="string"]{
+        min-width:150px !important;
+        max-width: 150px !important;
+        width: 150px !important;
+        overflow-x: hidden;
+        display: table-cell !important;
+        text-overflow: ellipsis;
+    }
+    #row3 table thead tr th:nth-of-type(2),#row3 table tbody tr td:nth-of-type(2), #row4 table thead tr th:nth-of-type(2),#row4 table tbody tr td:nth-of-type(2){
+        min-width: 90px !important;
+        max-width: 100px !important;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+    }
+    #row3 th[data-type="currency"], #row4 th[data-type="currency"], #row5 th[data-type="currency"]{
+        min-width:30px !important;
+    }
+} 
+/*** //-media screen ***/
+
+
+/******* print ********/
+.logo-quest-relatorio{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/logo_quest.png),url(../img/logo_assobens.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, top right;
+    background-size: 10%, 9%;
+
+
+}
+.logo-assobens-relatorio{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/logo_quest.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 10%;
+
+
+}
+/****** General Adjustments ****/
+.buttonSubmit{
+    width:40px !important;
+    margin: 33px 10px 10px -10px !important;
+}

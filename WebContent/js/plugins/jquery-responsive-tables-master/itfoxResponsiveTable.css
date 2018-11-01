@@ -1,0 +1,311 @@
+@media (max-width: 768px) and (min-width: 480px) {
+  @viewport {
+    width: 480px !important;
+  }
+}
+
+@media (min-width: 480px) {/* 48.1em*/
+   
+    .left{
+        text-align: left;
+        font-family: arial;
+        font-size:12px;
+    }
+    .table-responsive{
+        color:black;
+    }
+    .responsive-table thead tr th[scope="col"] {
+        font-weight: bold;
+    }
+    .color1.responsive-table thead th[scope="rowgroup"] {
+        background-color: lightsteelblue!important;
+        color:white !important;
+        font-weight: bold;
+        border: 2px solid #FFF;
+        vertical-align: middle;
+        
+    }
+    .color1.responsive-table thead th[scope="colgroup"] {
+        background-color: lightsteelblue!important;
+        color:white !important;
+        font-weight: bold;
+        border: 2px solid #FFF;
+    }
+    .color2.responsive-table thead th[scope="colgroup"] {
+        background-color: lightskyblue !important;
+        color:white !important;
+        font-weight: bold;
+        border: 2px solid #FFF;
+    }
+    .color3.responsive-table thead th[scope="colgroup"] {
+        background-color: lightcoral !important;
+        color:white !important;
+        font-weight: bold;
+        border: 2px solid #FFF;
+    }
+    .color4.responsive-table thead th[scope="colgroup"] {
+        background-color: lightsalmon !important;
+        color:white !important;
+        font-weight: bold;
+        border: 2px solid #FFF;
+    }
+    .color5.responsive-table thead th[scope="colgroup"] {
+        background-color: lightslategray !important;
+        color:white !important;
+        font-weight: bold;
+        border: 2px solid #FFF;
+    }
+     .responsive-table thead th {
+        background-color: #f0f0f0 !important;
+        border: 3px solid #fff;
+        font-weight: normal;
+        text-align: center;
+        color: #333 !important;
+        height: 20px;
+    }
+    .responsive-table tbody td[scope="row"] {
+        background-color: transparent;
+        color: black;
+        border-top: 1px solid #e7eaec;
+        font-weight: bold;
+    }
+    table.responsiveTable tbody tr:nth-of-type(even) td[data-type="percentual"]{
+        background-color:#fff;
+        border-top: 1px solid #e7eaec;
+        color: black;
+    }
+    table.responsiveTable tbody tr:nth-of-type(odd) td[data-type="percentual"]{
+        background-color:#f9f9f9; /*#FbFbFb;*/
+        border-top: 1px solid #e7eaec;
+        color: black;
+    }
+     table.responsiveTable tbody tr:nth-of-type(even) td[data-type="currency"]{
+        background-color:#fff;
+        border-top: 1px solid #e7eaec;
+        color: black;
+    }
+    table.responsiveTable tbody tr:nth-of-type(odd) td[data-type="currency"]{
+        background-color:#f9f9f9; /*#FbFbFb;*/
+        border-top: 1px solid #e7eaec;
+        color: black;
+    }
+    .table > tfoot > tr{
+        border-top: 3px double #e7eaec;
+        color: black;
+       
+        font-weight: bold;
+    }
+    .table > tfoot > tr > td{
+        
+        border-bottom: 1px solid #e7eaec;
+    }
+}
+/** inverte linha por coluna **/
+@media (max-width: 479px) {
+    .color1{}
+    .color2{}
+    .color3{}
+    .color4{}
+    .color5{}
+    .table-responsive{
+        border:0px solid #fff;
+    }
+    .table-module{
+        width: 100% !important;
+    }
+    .responsive-table{
+        width:100% !important;
+    }
+    .responsive-table caption {
+        font-size: 1.5em;
+    }
+    .responsive-table tbody td[scope="row"] {
+        background-color: transparent;
+        color: black;
+    }
+    /*
+    .responsive-table thead {
+    position: relative;
+    clip: auto;
+    height: auto;
+    width: auto;
+    overflow: auto;
+  }*/
+    .responsive-table thead th {
+        background-color: #09c;
+        border: 1px solid #1d96b2;
+        font-weight: normal;
+        text-align: center;
+        color: white;
+        height: 30px;
+    }
+    .responsiveTable thead th:last-child{
+        border-radius: 0 0px 0 0;
+        border: 0px solid #fff !important;
+        border-bottom: 1px solid #ccc !important;
+        color: #09c;
+        background-color: transparent;
+        font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif !important;
+        font-size: 140%;
+        margin-bottom: 10px;
+        padding-bottom: 50px;
+        font-weight: normal;
+        line-height: normal;
+    }
+    .responsive-table thead th:first-of-type {
+        text-align: left;
+        text-transform: uppercase;
+        width: 100% !important;
+        margin-top: 50px;
+    }
+    .responsive-table tbody{
+        background:transparent;
+    }
+    table.responsiveTable tbody td{
+        background:transparent;
+    }
+    .responsive-table tbody,
+    .responsive-table tr,
+    .responsive-table th,
+    .responsive-table td {
+        display: block;
+        padding: 0;
+        text-align: left;
+        white-space: normal;
+        width:100% !important;
+        border:0px solid #fff !important;
+        border-collapse: collapse;
+    }
+    .responsive-table tr {
+        display: table-row;
+    }
+    .responsive-table th,
+    .responsive-table td {
+        padding: .5em;
+        vertical-align: middle;
+    }
+
+    .responsive-table thead th[scope="col"], .responsive-table thead tr[scope="subtitle"]{
+        display:none;
+    }
+    .responsive-table tfoot td:first-of-type  {
+        background-color: transparent;
+        color:black;
+        text-align:left;
+        text-transform: uppercase;
+    }
+    .responsive-table tfoot td {
+        text-align: right;
+    }
+    .responsive-table tfoot td[data-title]:before {
+        content: attr(data-title);
+        float: left;
+        font-size: .8em;
+        color: rgba(94, 93, 82, 0.75);
+        background-color: transparent;
+        text-align: left;
+
+    }
+    .responsive-table tbody {
+        display: table-row-group;
+    }
+
+    .responsive-table tbody tr {
+        margin-bottom: 1em;
+        border: 0px solid #1d96b2;
+        background-color: transparent;
+    }
+    .responsive-table tbody tr{
+        display: table-row;
+        border-width: 1px;
+    }
+    .responsive-table tbody tr:last-of-type {
+        margin-bottom: 0;
+    }
+    .responsive-table tbody tr:nth-of-type(even) {
+        background-color: rgba(94, 93, 82, 0.1);
+    }
+    /*** color1 *****/
+    .table-striped>tbody>tr:nth-of-type(odd){
+        background: transparent url(/img/line-dashed.png) repeat-x scroll 0px 30px; 
+
+    } 
+    .responsive-table tbody tr:nth-of-type(even){
+        background: transparent url(/img/line-dashed.png) repeat-x scroll 0px 30px; 
+
+    }
+    /*** color2 ***/
+    .color2.table-striped>tbody>tr:nth-of-type(odd){
+        background: transparent url(/img/line-dashed.png) repeat-x scroll 0px 30px; 
+        -webkit-filter: saturate(3); filter: saturate(3);
+    } 
+    .color2.responsive-table tbody tr:nth-of-type(even){
+        background: transparent url(/img/line-dashed.png) repeat-x scroll 0px 30px; 
+        -webkit-filter: saturate(3); filter: saturate(3);
+    }
+    /*** color3 ***/
+    .color3.table-striped>tbody>tr:nth-of-type(odd){
+        background: transparent url(/img/line-dashed.png) repeat-x scroll 0px 30px; 
+        -webkit-filter: saturate(1); filter: saturate(1);
+
+    } 
+    .color3.responsive-table tbody tr:nth-of-type(even){
+        background: transparent url(/img/line-dashed.png) repeat-x scroll 0px 30px; 
+        -webkit-filter: saturate(1); filter: saturate(1);
+    }
+    /*** color4 ***/
+    .color4.table-striped>tbody>tr:nth-of-type(odd){
+        background: transparent url(/img/line-dashed.png) repeat-x scroll 0px 30px; 
+
+    } 
+    .color4.responsive-table tbody tr:nth-of-type(even){
+        background: transparent url(/img/line-dashed.png) repeat-x scroll 0px 30px; 
+
+    }
+    /*** color5 ***/
+    .color5.table-striped>tbody>tr:nth-of-type(odd){
+        background: transparent url(/img/line-dashed.png) repeat-x scroll 0px 30px; 
+        -webkit-filter: saturate(0); filter: saturate(0);
+    } 
+    .color5.responsive-table tbody tr:nth-of-type(even){
+        background: transparent url(/img/line-dashed.png) repeat-x scroll 0px 30px; 
+        -webkit-filter: saturate(0); filter: saturate(0);
+    }
+    /**** general ******/
+    .responsive-table tbody td[scope="row"] {
+        background-color: #fff;
+        color: #5e5d52;
+        text-align: left;
+        border:0px solid #fff;
+        width:100% !important;
+        font-size:10px;
+        margin:0px 0px 20px 0;
+    }
+    .responsive-table tbody td {
+        text-align: right;
+
+    }
+    .responsive-table tbody td[data-type=currency] {
+        text-align: right;
+        border-top:1px solid #ccc !important;
+        padding-top:10px !important;
+    }
+    .responsive-table tbody td[data-type=percentual] {
+        text-align: right;
+        border-bottom:1px solid #ccc !important;
+        margin-top:10px;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+
+    .responsive-table tbody td[data-title]:before {
+        content: attr(data-title);
+        float: left;
+        font-size: 100%;
+        font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif !important;
+        color: rgba(94, 93, 82, 0.75);
+
+
+    }
+
+}

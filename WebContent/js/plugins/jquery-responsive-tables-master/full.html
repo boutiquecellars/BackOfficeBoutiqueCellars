@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Responsive Tables with jQuery</title>
+    <meta name="description" content="Responsive tables design with CSS and jQuery">
+    <meta name="author" content="Gary Hepting">
+    <meta name="revisit-after" content="30 days">
+    <meta name="robots" content="index, follow" >
+    <link rel="stylesheet" href="jquery-responsive-tables.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script>window.jQuery || document.write('<script src="jquery-1.10.2.min.js" type="text/javascript"><\/script>')</script>
+    <script type="text/javascript" src="jquery-responsiveTables.js"></script>
+    <script type="text/javascript" src="jquery.responsiveText.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.responsive').not('table').responsiveText();
+        $('table.responsive').responsiveTables();
+      });
+    </script>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico|Average+Sans' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+      body {margin:0; padding:0; font-family: 'Average Sans', sans-serif; font-size:16px; font-weight:normal; line-height:1.5; background:#589283; color:#fff; text-shadow:2px 2px 2px #3F6558;}
+      a, a:link, a:visited {color:#fff;text-decoration: none;border-bottom:1px dashed #3F6558;-webkit-transition:border-color 0.3s ease-in;}
+      a:hover, a:focus {border-bottom:1px dashed #fff;}
+      h1, h2, h3, p {text-align:center;}
+      h1, h2, h3 {padding: 0 0.1em;}
+      h1[data-scrollable] { line-height: 1.85; }
+      .heading {margin-top:0.25em;font-family:'Pacifico', sans-serif; text-shadow:0.1em 0.1em 2px #3F6558;}
+      .subheading {font-weight:normal;}
+      .button {margin:2em 0;}
+      .button a {background:#3F6558;padding:0.4em 1em;border:none;border-radius:10px;}
+      .clearfix {clear:both;}
+      .space {margin:5em 0;}
+      table {
+        border: 1px solid #3F6558;
+        margin-bottom: 20px;
+      }
+      thead tr th {
+        background: #3F6558;
+      }
+      th, td {
+        padding: 0 10px;
+      }
+      tbody th, tbody td {
+        border: 1px solid #3F6558;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="responsive" data-height="100%" data-min="10" data-max="25" cellpadding="0" cellspacing="0">
+      <thead>
+        <tr>
+          <th valign="middle">Browser</th>
+          <th valign="middle">2010</th>
+          <th valign="middle">2011</th>
+          <th valign="middle">2012</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th valign="middle">Internet Explorer<br/>
+            (All versions)
+          </th>
+          <td valign="middle">55.88%</td>
+          <td valign="middle">48.18%</td>
+          <td valign="middle">39.2%</td>
+        </tr>
+        <tr>
+          <th valign="middle">Mozilla Firefox</th>
+          <td valign="middle">31.4%</td>
+          <td valign="middle">30.67%</td>
+          <td valign="middle">26.37%</td>
+        </tr>
+        <tr>
+          <th valign="middle">Google Chrome</th>
+          <td valign="middle">5.9%</td>
+          <td valign="middle">13.9%</td>
+          <td valign="middle">25.91%</td>
+        </tr>
+        <tr>
+          <th valign="middle">Apple Safari</th>
+          <td valign="middle">3.73%</td>
+          <td valign="middle">4.66%</td>
+          <td valign="middle">5.98%</td>
+        </tr>
+        <tr>
+          <th valign="middle">Opera</th>
+          <td valign="middle">2.19%</td>
+          <td valign="middle">1.96%</td>
+          <td valign="middle">1.8%</td>
+        </tr>
+        <tr>
+          <th valign="middle">Other</th>
+          <td valign="middle">0.91%</td>
+          <td valign="middle">0.64%</td>
+          <td valign="middle">0.73%</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">
+            Another open-source project by <a href="http://garyhepting.com/">Gary Hepting</a>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-17121602-5']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+  </body>
+</html>

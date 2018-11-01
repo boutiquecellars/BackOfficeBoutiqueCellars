@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/08/2016, 22:22:50
+    Author     : belchiorpalma
+*/
+.emailMktBox{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 30px 20px 20px 20px;
+}
+.form-control{
+    margin-top: 10px;
+}
+.header-marron{
+    background-color: #ebd9c0;
+    min-width: 103%;
+    min-height: 50px;
+    margin:10px -20px 10px -20px;
+    padding: 20px 20px 40px 40px;
+    font-family: Georgia;
+    font-size:14px;
+    color:#898989;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.logo-boutique{
+    text-align: center;
+    margin:20px;
+    background: url(../img/logo.png) no-repeat scroll 0 20px;
+    width:227px;
+    height:37px;
+    text-indent: -9999px;
+    margin: 40px auto 0 auto;
+    padding: 40px;
+}
+.emailMktImage{
+    width:76px;
+    height: 100px;
+    margin: 10px;
+    float:left;
+    background: url(../img/wine-img.jpg) no-repeat scroll top left;
+    background-size: cover;
+}
+
+.emailmkt-element h2{
+   
+}
+li.emailmkt-element{
+    border-left: 3px solid #B3A9A9;
+}
