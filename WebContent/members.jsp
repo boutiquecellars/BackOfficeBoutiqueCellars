@@ -263,7 +263,8 @@ You are not logged in<br/>
                     </ol>
                 </div>
                 <div class="col-lg-2">
-
+                    <br/><br/>
+                        <a href="register.jsp"><i class="fa fa-user-plus"></i> <span class="nav-label">Create Users</span></a>
                 </div>
             </div>
 

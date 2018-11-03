@@ -64,11 +64,13 @@
                     <a href="clients.jsp"><i class="fa fa-users"></i> <span class="nav-label">Clients</span></a>
                 </li>
                 <li class="<%if(navPage.equalsIgnoreCase("members")==true){out.print("active");}%>">
-                    <a href="members.jsp"><i class="fa fa-users"></i> <span class="nav-label">List Users</span></a>
+                    <a href="members.jsp"><i class="fa fa-users"></i> <span class="nav-label">Users</span></a>
                 </li>
+                <!--
                 <li class="<%if(navPage.equalsIgnoreCase("register")==true){out.print("active");}%>">
                     <a href="register.jsp"><i class="fa fa-user-plus"></i> <span class="nav-label">Create Users</span></a>
                 </li>
+                -->
                  
                 
                 <li class="<%if(navPage.equalsIgnoreCase("logout")==true){out.print("active");}%>">
