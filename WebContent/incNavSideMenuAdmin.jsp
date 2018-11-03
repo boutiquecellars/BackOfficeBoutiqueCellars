@@ -49,15 +49,17 @@
                     <a href="importar.jsp"><i class="fa fa-cloud-upload"></i> <span class="nav-label">Importar Arquivos</span></a>
                 </li>
                 -->
+                <!--
                 <li class="<%if(navPage.equalsIgnoreCase("ecommerce_email_mkt_cart")==true){out.print("active");}%>">
                     <a href="ecommerce_email_mkt_cart.jsp"><i class="fa fa-users"></i> <span class="nav-label">Create Order by Email Marketing</span></a>
-                </li>
+                </li>-->
                 <li class="<%if(navPage.equalsIgnoreCase("ecommerce_product")==true){out.print("active");}%>">
                     <a href="ecommerce_product.jsp"><i class="fa fa-users"></i> <span class="nav-label">Create Products</span></a>
                 </li>
+                <!--
                 <li class="<%if(navPage.equalsIgnoreCase("ecommerce_email_mkt")==true){out.print("active");}%>">
                     <a href="ecommerce_email_mkt.jsp"><i class="fa fa-user-plus"></i> <span class="nav-label">Create E-Mail Marketing</span></a>
-                </li>
+                </li>-->
                 <li class="<%if(navPage.equalsIgnoreCase("clients")==true){out.print("active");}%>">
                     <a href="clients.jsp"><i class="fa fa-users"></i> <span class="nav-label">Clients</span></a>
                 </li>
