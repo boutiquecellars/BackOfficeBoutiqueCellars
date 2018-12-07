@@ -6,7 +6,7 @@
 
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"                                                                        
     pageEncoding="ISO-8859-1"%>                                                                                                             
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">                                      
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd">                                      
 <%@page import="java.util.Properties"%>                                                                                                     
 <%@page import="javax.mail.Session"%>                                                                                                       
 <%@page import="javax.mail.Authenticator"%>                                                                                                 
@@ -93,7 +93,7 @@ if(send!=null){
             msg.setSubject(subject);
             msg.setContent(message, "text/html");
             Transport.send(msg);
-            String redirectURL = "http://boutiquecellars.com/email_marketing_sended.jsp";
+            String redirectURL = "https://boutiquecellars.com/email_marketing_sended.jsp";
             response.sendRedirect(redirectURL);
         }catch(Exception e){
                 e.printStackTrace(response.getWriter());

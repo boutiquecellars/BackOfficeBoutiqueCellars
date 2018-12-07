@@ -437,7 +437,7 @@ You are not logged in<br/>
 
 <!-- Custom pagination -->
 <!-- 
-http://datatables.net/
+https://datatables.net/
 -->
 <!--
 <script src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
@@ -454,7 +454,7 @@ http://datatables.net/
 -->
 <!-- Magnific Popup - Lightbox & dialog modal -->
 <script src="js/plugins/magnific-popup/magnific-popup.1.0.0.js"></script>
-<!-- http://dimsemenov.com/plugins/magnific-popup/ -->
+<!-- https://dimsemenov.com/plugins/magnific-popup/ -->
  <script>
         $(document).ready(function() {
             
@@ -522,7 +522,7 @@ http://datatables.net/
 		
     </script>
     <script>
-        // fonte: http://kilianvalkhof.com/2010/javascript/how-to-build-a-fast-simple-list-filter-with-jquery/
+        // fonte: https://kilianvalkhof.com/2010/javascript/how-to-build-a-fast-simple-list-filter-with-jquery/
         // Copyright (c) 2010 Kilian Valkhof
 
         // Permission is hereby granted, free of charge, to any person

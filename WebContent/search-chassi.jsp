@@ -518,7 +518,7 @@
 
 <!-- Custom pagination -->
 <!-- 
-http://datatables.net/
+https://datatables.net/
 -->
 <!--
 <script src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
@@ -535,7 +535,7 @@ http://datatables.net/
 -->
 <!-- Magnific Popup - Lightbox & dialog modal -->
 <script src="js/plugins/magnific-popup/magnific-popup.1.0.0.js"></script>
-<!-- http://dimsemenov.com/plugins/magnific-popup/ -->
+<!-- https://dimsemenov.com/plugins/magnific-popup/ -->
 
 <!-- slick carousel-->
 <script src="js/plugins/slick/slick.min.js"></script>
@@ -816,7 +816,7 @@ http://datatables.net/
                         $('#example').show();
 			 table = $('#example').DataTable( {
                              "language": {
-                                    "url": 'http://cdn.datatables.net/plug-ins/1.10.10/i18n/Portuguese-Brasil.json'
+                                    "url": 'https://cdn.datatables.net/plug-ins/1.10.10/i18n/Portuguese-Brasil.json'
                                 },
 				"ajax": {
 					"url": "DashboardServlet?selectGicChassiBatch=true&keyword="+$('#keyword').val(),

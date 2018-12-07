@@ -33,9 +33,9 @@
         .emailMktBox{max-width: 1024px;margin: 0 auto;padding: 30px 20px 20px 20px;}
         .form-control{margin-top: 10px;width: 98%;height: 34px;padding: 6px 12px;background-color: #fff;border: 1px solid #ccc;border-radius: 4px;-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s}
         .header-marron{background-color: #ebd9c0;min-width: 300px;min-height: 50px;margin:10px -20px 10px -20px;padding: 20px 20px 40px 40px;font-family: Georgia;font-size:14px;color:#898989;font-weight: bold;text-align: center;}
-        .logo-boutique{text-align: center;margin:20px;background: url(http://boutiquecellars.com/img/logo.png) no-repeat scroll 0 20px;width:227px;height:37px;text-indent: -9999px;margin: 40px auto 0 auto;padding: 40px;}
-        .productImage{width:100px;height: 100px;margin: 10px;float:left;background: url(http://boutiquecellars.com/img/wine-img.jpg) no-repeat scroll top left;background-size: cover;}
-        .emailMktImage{width:100px;height: 100px;margin: 10px;float:left;background: url(http://boutiquecellars.com/img/wine-img.jpg) no-repeat scroll top left;background-size: cover;}
+        .logo-boutique{text-align: center;margin:20px;background: url(https://boutiquecellars.com/img/logo.png) no-repeat scroll 0 20px;width:227px;height:37px;text-indent: -9999px;margin: 40px auto 0 auto;padding: 40px;}
+        .productImage{width:100px;height: 100px;margin: 10px;float:left;background: url(https://boutiquecellars.com/img/wine-img.jpg) no-repeat scroll top left;background-size: cover;}
+        .emailMktImage{width:100px;height: 100px;margin: 10px;float:left;background: url(https://boutiquecellars.com/img/wine-img.jpg) no-repeat scroll top left;background-size: cover;}
         button{height:35px;}
         .emailmkt-element h2{}
         a{text-decoration: none;color:#333 !important}
@@ -96,7 +96,7 @@
             <div class="col-md-12">
                 <div class="ibox-content" style="float:left;background-color: #ffffff;color: inherit;padding: 15px 20px 20px 20px;border-color: #e7eaec;border-image: none;border-style: solid solid none;border-width: 0px 0px;">
 
-                    <h2 class="font-bold logo-boutique" style="font-size: 24px;text-align: center;margin:20px;background: url(http://boutiquecellars.com/img/logo.png) no-repeat scroll 50px 0px;width:227px;height:37px;text-indent: -9999px;margin: 40px auto 0 auto;padding: 40px;"></h2>
+                    <h2 class="font-bold logo-boutique" style="font-size: 24px;text-align: center;margin:20px;background: url(https://boutiquecellars.com/img/logo.png) no-repeat scroll 50px 0px;width:227px;height:37px;text-indent: -9999px;margin: 40px auto 0 auto;padding: 40px;"></h2>
                     <%
                                 
                                 String strEmailMktId = request.getParameter("email_mkt_id");
@@ -188,7 +188,7 @@
                                             %>
                                             <li class="info-element product-element" style="float:left;width:98%;border-left: 3px solid #B3A9A9;background: #FAFAFB;border: 1px solid #e7eaec;margin: 0px 0 10px 0;padding: 10px;border-radius: 2px;font-size:12px;list-style:none;">
                                                 <div class="col-lg-2" style="float:left;min-width: 310px;min-height: 400px; padding: 10px">
-                                                    <img src="http://boutiquecellars.com/img/wine/boutique_cellars_<%=emailCart.getProduct().getName().replaceAll(" ", "_").toLowerCase()+".png"%>" class="productImage" title="" style="width:300px;height: 400px;margin: 10px auto 10px auto;float:none;background: url(http://boutiquecellars.com/img/wine-img.jpg) no-repeat scroll top left;background-size: cover;border: 1px solid #e7eaec;">
+                                                    <img src="https://boutiquecellars.com/img/wine/boutique_cellars_<%=emailCart.getProduct().getName().replaceAll(" ", "_").toLowerCase()+".png"%>" class="productImage" title="" style="width:300px;height: 400px;margin: 10px auto 10px auto;float:none;background: url(https://boutiquecellars.com/img/wine-img.jpg) no-repeat scroll top left;background-size: cover;border: 1px solid #e7eaec;">
                                                 </div>
                                                 <div class="col-lg-10" style="float:left;min-width: 300px;min-height: 100px;">
                                                     <h2><%=emailCart.getProduct().getName()%><br/><small>Quantity: <%=emailCart.getQuantity()%> - Price: AU$ <%=emailCart.getPrice()%></small> <br/><small>Total: AU$ <%=emailCart.getTotal()%></small></h2>
@@ -237,7 +237,7 @@
         </div>
     </div>
             <!-- Mainly scripts -->
-<script src="http://boutiquecellars.com/js/jquery-2.1.1.js"></script>
+<script src="https://boutiquecellars.com/js/jquery-2.1.1.js"></script>
 
 <!-- Custom and plugin javascript -->
 

@@ -796,7 +796,7 @@ You are not logged in<br/>
                                                         <img src="img/gallery/2s.jpg">
                                                     </td>
                                                     <td>
-                                                        <input type="text" class="form-control" disabled value="http://mydomain.com/images/image1.png">
+                                                        <input type="text" class="form-control" disabled value="https://mydomain.com/images/image1.png">
                                                     </td>
                                                     <td>
                                                         <input type="text" class="form-control" value="1">
@@ -810,7 +810,7 @@ You are not logged in<br/>
                                                         <img src="img/gallery/1s.jpg">
                                                     </td>
                                                     <td>
-                                                        <input type="text" class="form-control" disabled value="http://mydomain.com/images/image2.png">
+                                                        <input type="text" class="form-control" disabled value="https://mydomain.com/images/image2.png">
                                                     </td>
                                                     <td>
                                                         <input type="text" class="form-control" value="2">
@@ -824,7 +824,7 @@ You are not logged in<br/>
                                                         <img src="img/gallery/3s.jpg">
                                                     </td>
                                                     <td>
-                                                        <input type="text" class="form-control" disabled value="http://mydomain.com/images/image3.png">
+                                                        <input type="text" class="form-control" disabled value="https://mydomain.com/images/image3.png">
                                                     </td>
                                                     <td>
                                                         <input type="text" class="form-control" value="3">
@@ -838,7 +838,7 @@ You are not logged in<br/>
                                                         <img src="img/gallery/4s.jpg">
                                                     </td>
                                                     <td>
-                                                        <input type="text" class="form-control" disabled value="http://mydomain.com/images/image4.png">
+                                                        <input type="text" class="form-control" disabled value="https://mydomain.com/images/image4.png">
                                                     </td>
                                                     <td>
                                                         <input type="text" class="form-control" value="4">
@@ -852,7 +852,7 @@ You are not logged in<br/>
                                                         <img src="img/gallery/5s.jpg">
                                                     </td>
                                                     <td>
-                                                        <input type="text" class="form-control" disabled value="http://mydomain.com/images/image5.png">
+                                                        <input type="text" class="form-control" disabled value="https://mydomain.com/images/image5.png">
                                                     </td>
                                                     <td>
                                                         <input type="text" class="form-control" value="5">
@@ -866,7 +866,7 @@ You are not logged in<br/>
                                                         <img src="img/gallery/6s.jpg">
                                                     </td>
                                                     <td>
-                                                        <input type="text" class="form-control" disabled value="http://mydomain.com/images/image6.png">
+                                                        <input type="text" class="form-control" disabled value="https://mydomain.com/images/image6.png">
                                                     </td>
                                                     <td>
                                                         <input type="text" class="form-control" value="6">
@@ -880,7 +880,7 @@ You are not logged in<br/>
                                                         <img src="img/gallery/7s.jpg">
                                                     </td>
                                                     <td>
-                                                        <input type="text" class="form-control" disabled value="http://mydomain.com/images/image7.png">
+                                                        <input type="text" class="form-control" disabled value="https://mydomain.com/images/image7.png">
                                                     </td>
                                                     <td>
                                                         <input type="text" class="form-control" value="7">
@@ -1022,7 +1022,7 @@ You are not logged in<br/>
 
 <!-- Custom pagination -->
 <!-- 
-http://datatables.net/
+https://datatables.net/
 -->
 <!--
 <script src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
@@ -1039,7 +1039,7 @@ http://datatables.net/
 -->
 <!-- Magnific Popup - Lightbox & dialog modal -->
 <script src="js/plugins/magnific-popup/magnific-popup.1.0.0.js"></script>
-<!-- http://dimsemenov.com/plugins/magnific-popup/ -->
+<!-- https://dimsemenov.com/plugins/magnific-popup/ -->
  <script>
         $(document).ready(function() {
             /*
@@ -1275,7 +1275,7 @@ http://datatables.net/
 		
     </script>
      <script>
-        // fonte: http://kilianvalkhof.com/2010/javascript/how-to-build-a-fast-simple-list-filter-with-jquery/
+        // fonte: https://kilianvalkhof.com/2010/javascript/how-to-build-a-fast-simple-list-filter-with-jquery/
         // Copyright (c) 2010 Kilian Valkhof
 
         // Permission is hereby granted, free of charge, to any person

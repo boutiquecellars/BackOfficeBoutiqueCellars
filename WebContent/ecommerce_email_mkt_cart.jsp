@@ -500,7 +500,7 @@ You are not logged in<br/>
                                                                                 %>
                                                                                 <li class="info-element product-element">
                                                                                     <div class="col-lg-2">
-                                                                                        <img src="http://boutiquecellars.com/img/wine/boutique_cellars_<%=emailCartSelected.getProduct().getName().replaceAll(" ", "_").toLowerCase()+".png"%>" class="productImage" title="Utils.blobToString(emailCart.getProduct().getPic1())">
+                                                                                        <img src="https://boutiquecellars.com/img/wine/boutique_cellars_<%=emailCartSelected.getProduct().getName().replaceAll(" ", "_").toLowerCase()+".png"%>" class="productImage" title="Utils.blobToString(emailCart.getProduct().getPic1())">
                                                                                     </div>
                                                                                     <div class="col-lg-10">
                                                                                         <h2><%=emailCartSelected.getProduct().getName()%><br/><small>Quantity: <%=emailCartSelected.getQuantity()%> - Price: AU$ <%=emailCartSelected.getPrice()%></small> <br/><small>Total: AU$ <%=emailCartSelected.getTotal()%></small></h2>
@@ -605,7 +605,7 @@ You are not logged in<br/>
 
 <!-- Custom pagination -->
 <!-- 
-http://datatables.net/
+https://datatables.net/
 -->
 <!--
 <script src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
@@ -622,7 +622,7 @@ http://datatables.net/
 -->
 <!-- Magnific Popup - Lightbox & dialog modal -->
 <script src="js/plugins/magnific-popup/magnific-popup.1.0.0.js"></script>
-<!-- http://dimsemenov.com/plugins/magnific-popup/ -->
+<!-- https://dimsemenov.com/plugins/magnific-popup/ -->
  <script>
         $(document).ready(function() {
             /*
@@ -808,7 +808,7 @@ http://datatables.net/
 		
     </script>
     <script>
-        // fonte: http://kilianvalkhof.com/2010/javascript/how-to-build-a-fast-simple-list-filter-with-jquery/
+        // fonte: https://kilianvalkhof.com/2010/javascript/how-to-build-a-fast-simple-list-filter-with-jquery/
         // Copyright (c) 2010 Kilian Valkhof
 
         // Permission is hereby granted, free of charge, to any person

@@ -23,20 +23,20 @@
         <meta name="viewport" content="width=device-width">
         <!-- Bootstrap CSS Toolkit styles -->
         <!--
-        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
         -->
         <!-- Generic page styles -->
         <link rel="stylesheet" href="css/style-upload.css">
         <!-- Bootstrap styles for responsive website layout, supporting different screen sizes -->
-        <!--<link rel="stylesheet" href="http://blueimp.github.com/cdn/css/bootstrap-responsive.min.css">-->
+        <!--<link rel="stylesheet" href="https://blueimp.github.com/cdn/css/bootstrap-responsive.min.css">-->
         <!-- Bootstrap CSS fixes for IE6 -->
-        <!--[if lt IE 7]><link rel="stylesheet" href="http://blueimp.github.com/cdn/css/bootstrap-ie6.min.css"><![endif]-->
+        <!--[if lt IE 7]><link rel="stylesheet" href="https://blueimp.github.com/cdn/css/bootstrap-ie6.min.css"><![endif]-->
         <!-- Bootstrap Image Gallery styles -->
-        <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+        <link rel="stylesheet" href="https://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
         <!-- CSS to style the file input field as button and adjust the Bootstrap progress bars -->
         <link rel="stylesheet" href="css/jquery.fileupload-ui.css">
         <!-- Shim to make HTML5 elements usable in older Internet Explorer versions -->
-        <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+        <!--[if lt IE 9]><script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 </head>
 
@@ -175,7 +175,7 @@
                                 <li>Uploaded files will be deleted automatically after <strong>5 minutes</strong> (demo setting).</li>
                                 <li>You can <strong>drag &amp; drop</strong> files from your desktop on this webpage with Google Chrome, Mozilla Firefox and Apple Safari.</li>
                                 <li>Please refer to the <a href="https://github.com/blueimp/jQuery-File-Upload">project website</a> and <a href="https://github.com/blueimp/jQuery-File-Upload/wiki">documentation</a> for more information.</li>
-                                <li>Built with Twitter's <a href="http://twitter.github.com/bootstrap/">Bootstrap</a> toolkit and Icons from <a href="http://glyphicons.com/">Glyphicons</a>.</li>
+                                <li>Built with Twitter's <a href="https://twitter.github.com/bootstrap/">Bootstrap</a> toolkit and Icons from <a href="https://glyphicons.com/">Glyphicons</a>.</li>
                             </ul>
                         </div>
                         -->
@@ -309,21 +309,21 @@
             {% } %}
         </script>
         <!--
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         -->
         <!-- The jQuery UI widget factory, can be omitted if jQuery UI is already included -->
         <script src="js/vendor/jquery.ui.widget.js"></script>
         <!-- The Templates plugin is included to render the upload/download listings -->
-        <script src="http://blueimp.github.io/JavaScript-Templates/js/tmpl.min.js"></script>
+        <script src="https://blueimp.github.io/JavaScript-Templates/js/tmpl.min.js"></script>
         <!-- The Load Image plugin is included for the preview images and image resizing functionality -->
-        <script src="http://blueimp.github.io/JavaScript-Load-Image/js/load-image.js"></script>
+        <script src="https://blueimp.github.io/JavaScript-Load-Image/js/load-image.js"></script>
         <!-- The Canvas to Blob plugin is included for image resizing functionality -->
-        <script src="http://blueimp.github.io/JavaScript-Canvas-to-Blob/js/canvas-to-blob.min.js"></script>
+        <script src="https://blueimp.github.io/JavaScript-Canvas-to-Blob/js/canvas-to-blob.min.js"></script>
         <!-- Bootstrap JS and Bootstrap Image Gallery are not required, but included for the demo -->
         <!--
-        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
         -->
-        <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+        <script src="https://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
         <!-- The Iframe Transport is required for browsers without support for XHR file uploads -->
         <script src="js/jquery.iframe-transport.js"></script>
         <!-- The basic File Upload plugin -->

@@ -68,7 +68,7 @@
         .logo-boutique{
             text-align: center;
             margin:20px;
-            background: url(http://boutiquecellars.com/img/logo.png) no-repeat scroll 0 20px;
+            background: url(https://boutiquecellars.com/img/logo.png) no-repeat scroll 0 20px;
             width:227px;
             height:37px;
             text-indent: -9999px;
@@ -80,7 +80,7 @@
             height: 100px;
             margin: 10px;
             float:left;
-            background: url(http://boutiquecellars.com/img/wine-img.jpg) no-repeat scroll top left;
+            background: url(https://boutiquecellars.com/img/wine-img.jpg) no-repeat scroll top left;
             background-size: cover;
         }
         button{
@@ -148,7 +148,7 @@
             <div class="col-md-12">
                 <div class="ibox-content" style="float:left;background-color: #ffffff;color: inherit;padding: 15px 20px 20px 20px;border-color: #e7eaec;border-image: none;border-style: solid solid none;border-width: 0px 0px;">
 
-                    <h2 class="font-bold logo-boutique"  style="font-size: 24px;text-align: center;margin:20px;background: url(http://boutiquecellars.com/img/logo.png) no-repeat scroll 50px 0px;width:227px;height:37px;text-indent: -9999px;margin: 40px auto 0 auto;padding: 40px;"></h2>
+                    <h2 class="font-bold logo-boutique"  style="font-size: 24px;text-align: center;margin:20px;background: url(https://boutiquecellars.com/img/logo.png) no-repeat scroll 50px 0px;width:227px;height:37px;text-indent: -9999px;margin: 40px auto 0 auto;padding: 40px;"></h2>
                     <%
                                 String id = request.getParameter("id");
                                 String operation = request.getParameter("operation");
@@ -234,10 +234,10 @@
                                                 List<Product> productsSelected = new BusinessDelegate().selectEmailMktProductLight(emailMktId);
                                                 for(Product p: productsSelected){
                                              %>
-                                             <a href="http://boutiquecellars.com/email_marketing.jsp?id=<%=emailMktId%>&clientId=<%=clientId%>" style="text-decoration: none;color:#333 !important">
+                                             <a href="https://boutiquecellars.com/email_marketing.jsp?id=<%=emailMktId%>&clientId=<%=clientId%>" style="text-decoration: none;color:#333 !important">
                                              <li class="emailmkt-element" id="<%=p.getProductId()%>"  style="float:left;width:98%;border-left: 3px solid #B3A9A9;background: #FAFAFB;border: 1px solid #e7eaec;margin: 0px 0 10px 0;padding: 10px;border-radius: 2px;font-size:12px;list-style:none;">
                                                 <div class="col-lg-2" style="float:left;min-width: 310px;min-height: 400px; padding: 10px; text-align: center">
-                                                    <img src="http://boutiquecellars.com/img/wine/boutique_cellars_<%=p.getName().replaceAll(" ", "_").toLowerCase()+".png"%>" class="emailMktImage" style="width:300px;height: 400px;margin: 10px;float:left;background: url(http://boutiquecellars.com/img/wine-img.jpg) no-repeat scroll top left;background-size: cover;border: 1px solid #e7eaec;"/>
+                                                    <img src="https://boutiquecellars.com/img/wine/boutique_cellars_<%=p.getName().replaceAll(" ", "_").toLowerCase()+".png"%>" class="emailMktImage" style="width:300px;height: 400px;margin: 10px;float:left;background: url(https://boutiquecellars.com/img/wine-img.jpg) no-repeat scroll top left;background-size: cover;border: 1px solid #e7eaec;"/>
                                                 </div>
                                                 <div class="col-lg-10" style="float:left;min-width: 300px; width:300px;min-height: 100px;">
                                                     <h2><%=p.getName()%></h2>

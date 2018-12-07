@@ -732,7 +732,7 @@ if(memberId==0){
 <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 <!-- datepicker -->
 <!--
- <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+ <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 -->
 
  <script src="js/plugins/jquery-ui-1.11-2.4/jquery-ui.js"></script>
